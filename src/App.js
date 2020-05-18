@@ -54,7 +54,6 @@ class App extends Component {
       // send the candidates to the remote peer
       // see addCandidate below to be triggered on the remote peer
       if (e.candidate) {
-        )
         this.sendToPeer("candidate", e.candidate);
       }
     };
